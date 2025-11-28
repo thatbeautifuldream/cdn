@@ -1,9 +1,8 @@
 {
-  "redirects": [
+  "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://cdn.jsdelivr.net/gh/thatbeautifuldream/cdn@main/$1",
-      "permanent": true
+      "destination": "https://cdn.jsdelivr.net/gh/thatbeautifuldream/cdn@main/$1"
     }
   ]
 }
